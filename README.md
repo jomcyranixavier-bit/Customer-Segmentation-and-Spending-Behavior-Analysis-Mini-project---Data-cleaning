@@ -10,16 +10,17 @@ Power Query Editor
 
 Applied Steps for Data cleaning
 replace null value in income with median 51382
-
-MntWines	Wine Spending
-MntFruits	Fruit Spending
-MntMeatProducts	Meat Spending
-MntFishProducts	Fish Spending
-NumWebPurchases	Web Purchases
-NumStorePurchases	Store Purchases
-Dt_Customer	Customer Since
+Changed data types
+Deleted unnecessary columns from the original dataset 
+Sort ascending, filteres
+Renamed the columns as MntWines to 	Wine Spending
+MntFruits	- Fruit Spending
+MntMeatProducts-	Meat Spending
+MntFishProducts	- Fish Spending
+NumWebPurchases-	Web Purchases
+NumStorePurchases-	Store Purchases
+Dt_Customer	- Customer Since
 and Response → Campaign Response
-
 Check for ID Duplicates.
 Check for Count Occurrences
 Customer column added for Age using Date.Year(DateTime.LocalNow()) - [Year_Birth]
